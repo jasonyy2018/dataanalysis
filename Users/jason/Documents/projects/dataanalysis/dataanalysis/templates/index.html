@@ -1,0 +1,21 @@
+<!-- ... existing code ... -->
+<div class="trend-analysis">
+    <h2>趋势分析结果</h2>
+    <div id="chart-container" style="height: 400px;"></div>
+    <div id="analysis-report"></div>
+</div>
+<!-- ... existing code ... -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/static/js/script.js"></script>
+
+<!-- 添加测试数据调用示例 -->
+<script>
+    // 示例数据，实际应用中应替换为真实数据
+    const testData = {
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+        values: [10, 20, 30, 40, 50, 60],
+        report: '这是一个趋势分析报告示例'
+    };
+    displayAnalysisResults(testData);
+</script>

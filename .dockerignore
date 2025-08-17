@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.packenv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Portable build
+portable/
+*.zip
+*.exe
+*.spec
+
+# Test files
+test_*.py
+*_test.py
+playwright_*.png
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
